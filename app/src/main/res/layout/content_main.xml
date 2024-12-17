@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="Permainan Tebak Gambar Sederhana"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/_12x512bb"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_keluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keluar" />
+
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk" />
+    </LinearLayout>
+
+</LinearLayout>
